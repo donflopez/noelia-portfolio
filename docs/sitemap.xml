@@ -3,30 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://donflopez.github.io/noelia-portfolio/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://donflopez.github.io/noelia-portfolio/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/post/example6/</loc>
+    <loc>https://donflopez.github.io/noelia-portfolio/post/example6/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/post/example7/</loc>
+    <loc>https://donflopez.github.io/noelia-portfolio/post/example7/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
+    <loc>https://donflopez.github.io/noelia-portfolio/post/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://donflopez.github.io/noelia-portfolio/tags/</loc>
     <priority>0</priority>
   </url>
   
