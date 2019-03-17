@@ -1,0 +1,191 @@
++++
+baseURL = "http://example.org/"
+languageCode = "es-es"
+title = "Noelia Méndez Mendoza"
+theme = "highlights"
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Noelia Méndez"
+  description = "Arquitecta"
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "noeliamendezmendoza@gmail.com"
+
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
+
+  # hero Section
+  [params.hero]
+    type = "text"
+    title = "NOELIA MÉNDEZ"
+    description = "ARQUITECTA"
+    buttontext = "Sobre mi"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "sobre mi"
+    description = "Apasionada de la arquitectura y el diseño de interiores. En el diseño encuentro la oportunidad de mejorar, refrescar e innovar espacios. Amante de la naturaleza, siento inquietud por la arquitectura sostenible teniendo muy en cuenta el medio ambiente en el desarrollo de mis proyectos."
+    buttontext = "Proyectos"
+    # the picture is stored at static/images/
+    picture = "sobremi.jpg"
+
+  # skill section
+  [[params.block]]
+    id = "skills"
+    type = "list"
+    title = "Proyectos"
+    description = "Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "noelia-portada-blur.png"
+
+    [[params.block.item]]
+      picture = "p1/renderfinal01.jpg"
+      title = "Concurso Urbanización Y Viviendas - Madrid"
+
+    [[params.block.item]]
+      picture = "p2/portada.png"
+      title = "Al final del arenas negras - Garachico"
+
+    [[params.block.item]]
+      picture = "p3/portada.jpg"
+      title = "Locales Comerciales - Madrid"
+
+    [[params.block.item]]
+      picture = "p4/portada.jpg"
+      title = "Diseño de ambientes porcerlanosa - Madrid"
+
+    [[params.block.item]]
+      picture = "p5/portada.jpg"
+      title = "Diseño de interiores y reforma - Madrid"
+
+    [[params.block.item]]
+      picture = "p6/portada.jpg"
+      title = "Portal vivienda - Madrid"
+    
+    [[params.block.item]]
+      picture = "p7/portada.jpg"
+      title = "Reforma exposicíon Porcelanosa e implantación oficinas - Madrid"
+
+    [[params.block.item]]
+      picture = "p8/portada.jpg"
+      title = "Proyecto nueva fachada Porcelanosa - Madrid"
+
+    [[params.block.item]]
+      picture = "p9/portada.jpg"
+      title = "Proyecto 44 viviendas - Madrid"
+
+    [[params.block.item]]
+      picture = "p10/portada.jpg"
+      title = "Concurso Público - Cartagena de Indidias"
+
+    [[params.block.item]]
+      picture = "p11/portada.jpg"
+      title = "Nave industrial - cariñena"
+
+    [[params.block.item]]
+      picture = "p12/portada.jpg"
+      title = "Nave Industrual - Vicálvaro"
+
+    [[params.block.item]]
+      picture = "p13/portada.jpg"
+      title = "Proyecto estrategia de reducción de demanda - Madrid"
+
+    [[params.block.item]]
+      picture = "p14/portada.jpg"
+      title = "Implantación de edificio en el Campus - Madrid"
+
+    [[params.block.item]]
+      picture = "p15/portada.jpg"
+      title = "Detalles"
+
+    [[params.block.item]]
+      picture = "p16/portada.jpg"
+      title = "Fotografía"
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "One more thing"
+    description = "Aliquam ante ac id. Adipiscing interdum lorem praesent fusce pellentesque arcu feugiat. Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet integer vulputate phasellus lorem ipsum dolor lorem magna consequat sed etiam adipiscing interdum."
+    # the picture is stored at static/images/
+    picture = "noelia-portada-blur.png"
+
+#  # custom section
+#  [[params.block]]
+#    id = "important"
+#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
+#    type = "custom"
+#    title = "Don't forget"
+#    description = "Curabitur massa ante, semper at massa et, semper pellentesque velit. Duis tempor est nisi, a gravida risus malesuada eget. Nunc rutrum arcu laoreet mauris sodales vehicula. Nunc iaculis felis ac dui egestas, vel ullamcorper tellus bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia sem porttitor, fringilla metus at, convallis quam. Integer convallis a justo non pellentesque."
+#    # the picture is stored at static/images/
+#    picture = "pic04.jpg"
+
+  # contact form
+  [[params.block]]
+    id = "contact"
+    type = "contact"
+    title = "Contacto"
+    picture = "noelia-portada-blur.png"
+
+    [params.block.form]
+      name = "Nombre"
+      email = "Email"
+      message = "Mensaje"
+      buttontext = "Enviar"
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Linkedin"
+        icon = "fa-linkedin"
+        link = "https://es.linkedin.com/in/noelia-m%C3%A9ndez-mendoza-670063b8"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "#"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "noeliamendezmendoza@gmail.com"
+
+    # copyright
+    #[params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© Noelia Mendez"
+
++++
